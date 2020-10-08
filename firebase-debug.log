@@ -1,0 +1,13 @@
+[debug] [2020-10-08T14:49:02.436Z] ----------------------------------------------------------------------
+[debug] [2020-10-08T14:49:02.437Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Huygi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-10-08T14:49:02.438Z] CLI Version:   8.10.0
+[debug] [2020-10-08T14:49:02.438Z] Platform:      win32
+[debug] [2020-10-08T14:49:02.438Z] Node Version:  v10.20.1
+[debug] [2020-10-08T14:49:02.439Z] Time:          Thu Oct 08 2020 21:49:02 GMT+0700 (Indochina Time)
+[debug] [2020-10-08T14:49:02.439Z] ----------------------------------------------------------------------
+[debug] [2020-10-08T14:49:02.439Z] 
+[debug] [2020-10-08T14:49:02.446Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-08T14:49:02.447Z] > authorizing via signed-in user
+[debug] [2020-10-08T14:49:02.447Z] [iam] checking project chat-app-262f4 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-10-08T14:49:02.449Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/chat-app-262f4:testIamPermissions  
+ {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]}
